@@ -1,7 +1,7 @@
 import 'dart:convert';
-import 'package:flutter/foundation.dart';
-import 'package:http/http.dart' as http;
 import '/model/post.dart';
+import 'package:http/http.dart' as http;
+import 'package:flutter/foundation.dart';
 
 class NetworkRequest {
   static const String url = 'https://jsonplaceholder.typicode.com/posts';
